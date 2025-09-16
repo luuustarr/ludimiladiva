@@ -1,14 +1,30 @@
 <!DOCTYPE html> 
 <html lang="pt-br"> 
 <head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial
 scale=1.0"> 
-<title>Meu Primeiro Projeto</title> 
-<link rel="stylesheet" href="style.css"> 
+    <title>Mini WhatsApp</title> 
+    <link rel="stylesheet" href="style.css"> 
 </head> 
 <body> 
-<h1>Olá, Mundo!</h1> 
-<script src="script.js"></script> 
+ 
+    <div class="chat-container"> 
+        <div class="chat-header"> 
+            Contato do Exemplo 
+        </div> 
+        <div class="chat-messages" id="chatMessages"> 
+            <div class="message received">Olá! Tudo bem?</div> 
+            <div class="message sent">Tudo ótimo! E você?</div> 
+            <div class="message received">Também, obrigado!</div> 
+        </div> 
+        <div class="chat-input"> 
+            <input type="text" id="messageInput" placeholder="Digite 
+uma mensagem..."> 
+            <button id="sendButton">Enviar</button> 
+        </div> 
+    </div> 
+ 
+    <script src="script.js"></script> 
 </body> 
-</html> 
+</html>
